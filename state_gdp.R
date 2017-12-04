@@ -39,10 +39,10 @@ state_gdp_post1996 <- beaGet(data_list_post1996, asTable = TRUE)
 write.csv(state_gdp_post1996, file = '/Users/main/OneDrive - Istituto Universitario Europeo/data/state_finances/nom_gdp_state_post1996.csv', row.names = FALSE)
 
 
-## DATA UNTIL 1996 (SIC)
+## DATA UNTIL 1997 (SIC)
 
 ## 3) Design list for pulling data
-data_list_until1996 <- list('UserID' = beaKey,
+data_list_until1997 <- list('UserID' = beaKey,
                            'Method' = 'GetData',
                            'datasetname' = 'RegionalProduct',
                            'Component' = 'GDP_SAS',
@@ -51,7 +51,7 @@ data_list_until1996 <- list('UserID' = beaKey,
                            'Year' = 'ALL')
 
 ## 4) Pull data and save as csv
-state_gdp_until1996 <- beaGet(data_list_until1996, asTable = TRUE)
+state_gdp_until1997 <- beaGet(data_list_until1997, asTable = TRUE)
 write.csv(state_gdp_until1996, file = '/Users/main/OneDrive - Istituto Universitario Europeo/data/state_finances/nom_gdp_state_until1996.csv', row.names = FALSE)
 
 
