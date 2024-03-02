@@ -54,5 +54,3 @@ data_list_until1997 <- list('UserID' = beaKey,
 ## 4) Pull data and save as csv
 state_gdp_until1997 <- beaGet(data_list_until1997, asTable = TRUE)
 write.csv(state_gdp_until1996, file = '/Users/main/OneDrive - Istituto Universitario Europeo/data/state_finances/nom_gdp_state_until1996.csv', row.names = FALSE)
-
-
