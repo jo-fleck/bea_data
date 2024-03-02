@@ -3,6 +3,7 @@
 rm(list=ls()) 
 library(bea.R)
 
+
 ## 1) Set BEA's API key
 
 BEA_API_key <- '/Users/main/Documents/Dropbox/Computing/BEA/bea_api_key.txt'
